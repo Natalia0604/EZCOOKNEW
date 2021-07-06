@@ -1,5 +1,4 @@
 import React from 'react';
-// import Bread from "./MemberComponents/bread.png";
 
 export default function Member() {
     // const imgSize = {
@@ -39,7 +38,6 @@ export default function Member() {
     //         </div>
     //         <div className="show-post">
     //            <div className="list-posts">
-    //                 <img src={Bread} style={imgSize}/>
     //                  一次秀9篇 
     //                 <label for="file" style={label}>File progress:</label>
     //                 <progress id="file" max="100" value="70"> 70% </progress>
