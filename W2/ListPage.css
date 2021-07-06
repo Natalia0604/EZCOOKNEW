@@ -14,7 +14,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     font: inherit;
     vertical-align: baseline;
 }
-/* remember to define focus styles! */
+/* remember to define focus styles!! */
 :focus {
     outline: 0;
 }
