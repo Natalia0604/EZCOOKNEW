@@ -1,4 +1,4 @@
-// import React ,{useState} from 'react';
+import React from 'react';
 // import Bread from "./MemberComponents/bread.png";
 
 export default function Member() {
@@ -21,7 +21,8 @@ export default function Member() {
     //     setInputList(list);
     //   };
 
-    // return(
+    return(
+        <h1>111</h1>
     // <>
     //     <div className="container">
     //         <img/>
@@ -46,5 +47,5 @@ export default function Member() {
     //            </div> 
     //     </div>
     //     </>
-    //)
+    )
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-// import pizza from '../img/pizza.png';
 import "./Components/BuildPost.css";
 import Ingredients from './Components/Ingredients';
 import Directions from './Components/Directions';
@@ -11,7 +10,6 @@ export default function BuildPost() {
         <h2>料理名稱</h2>
           <div className="dish-info">
             <div className="receipe-img-container">
-            <img className="pizza" alt="pizza"/>
           </div>
           <div className="dish-info-text">
             <div className="dish-info-field">
