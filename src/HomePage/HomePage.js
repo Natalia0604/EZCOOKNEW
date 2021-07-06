@@ -35,39 +35,6 @@ export default function HomePage() {
       <div className="search-result">
         <h2 className="result-title">搜尋結果如下:</h2>
         <div className="result-items">
-          
-          {/* <div className="result-item">
-            <img className="result-img" src={cake}></img>
-            <p className="result-text">草莓蛋糕</p>
-          </div>
-          <div className="result-item">
-            <img className="result-img" src={cake}></img>
-            <p>草莓蛋糕</p>
-          </div>
-          <div className="result-item">
-            <img className="result-img" src={cake}></img>
-            <p>草莓蛋糕</p>
-          </div>
-          <div className="result-item">
-            <img className="result-img" src={cake}></img>
-            <p>草莓蛋糕</p>
-          </div>
-          <div className="result-item">
-            <img className="result-img" src={cake}></img>
-            <p>草莓蛋糕</p>
-          </div>
-          <div className="result-item">
-            <img className="result-img" src={cake}></img>
-            <p>草莓蛋糕</p>
-          </div>
-          <div className="result-item">
-            <img className="result-img" src={cake}></img>
-            <p>草莓蛋糕</p>
-          </div>
-          <div className="result-item">
-            <img className="result-img" src={cake}></img>
-            <p>草莓蛋糕</p> */}
-          {/* </div> */}
 
         </div>
       </div>

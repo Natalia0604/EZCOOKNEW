@@ -30,7 +30,6 @@ export default function BuildPost() {
         <h2>料理名稱</h2>
           <div className="dish-info">
             <div className="receipe-img-container">
-            <img className="pizza" src={pizza} alt="pizza"/>
           </div>
           <div className="dish-info-text">
             <div className="dish-info-field">
