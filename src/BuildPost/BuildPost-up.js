@@ -1,7 +1,4 @@
 import React,{useState} from 'react';
-// import pizza from './img/pizza.png';
-// import pasta from './BuildPostComponents/pasta.png';
-// import Directions from './BuildPostComponents/Directions';
 import './App.css';
 import "./Components/BuildPost.css";
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Components/HomePage.css";
-// import cake from "../img/cake.png";
 
 export default function HomePage() {
   

@@ -1,5 +1,4 @@
 import React from 'react';
-// import pasta from '../../img/pasta.png';
 
 export default function Directions(values,setValues) {
     // const [list, setList] = useState([]); //[{count:1,text:"步驟內容"},{count:2,text:"步驟內容2"}]

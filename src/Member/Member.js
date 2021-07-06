@@ -1,5 +1,4 @@
 // import React ,{useState} from 'react';
-// import Bread from "./MemberComponents/bread.png";
 
 export default function Member() {
     // const imgSize = {
