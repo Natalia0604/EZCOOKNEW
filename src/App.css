@@ -43,17 +43,374 @@ blockquote, q {
     quotes: “” “”;
 }
 /* -------------------------------------------------reset css---------------------------------------------------*/
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: darksalmon;
-  color:white;
-  height:50px;
+/* all-style */
+.container{
+    width:1200px;
+    margin:0px auto;
 }
+/* -----------------------------nav---------------------------------- */
+*{
+    box-sizing:border-box;
+    font-size:16px;
+}
+
+nav{
+    background-color: #ffffff;
+    height: 54px;
+    top:0;
+    position: sticky;
+    width:100%;    
+    z-index: 10;
+    font-weight: bold;
+}
+.navContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1200px;
+    margin:0px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.logo-icon{
+    width:50px;
+    height:50px;;
+} 
 .nav-link{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width:600px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+li{
+    margin-right: 20px;
+}
+
+/* --------------------------------------Homepage---------------------------------- */
+/* SearchBar */
+.search-bar-container{ 
+    display: flex;
+}
+.search-1{
+    background-color: wheat;
+    width:50%;
+    text-align: center;
+}
+.search-2{
+    width:50%;
+    text-align: center;
+    background-color:#FAEBD7;
+}
+.search-text-2{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.search-input{
+    border-radius: 3px;
+    border:1px solid lightgrey;
+    padding-left:5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+.search-catergory{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.search-btn{
+    background-color: white;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    line-height: 40px;
+    width:15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* SearchResult */
+.search-result{
+    margin-top: 30px;
+}
+.title{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.result-items{
+    display:flex;
+    flex-wrap:wrap; 
+    justify-content: center;
+}
+.box{
+    margin:10px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px 6px 6px 6px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.imgContainer{
+    width: 100%;
+    height: 0;
+    padding-bottom: 60%;
+    overflow: hidden;
+}
+.contentImg{
+    width:100%;
+    border-radius: 4px 4px 0 0;
+}
+/* -------------------------------Buildpost------------------------------------ */
+/* Ingredients*/
+.dish-info{
+    display:flex;
+    margin-top: 40px;
+}
+.dish-info-field{
+    margin-bottom: 10px;
+}
+.dish-ingredient{
+    margin-top: 40px;
+}
+.sub-title{
+    font-weight: bold;
+}
+.receipe-input{
+    width:40%;
+    border-radius: 3px;
+    border:1px solid lightgrey;
+    padding-left:5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.ingredients{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.delete-ingredient{
+    background-color: white;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    line-height: 40px;
+    margin-left: 10px;
+    width:5%;
+}
+.delete-ingredient:hover{
+    background-color: #D49A6A;
+}
+.add-ingredient{
+    background-color: white;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    line-height: 40px;
+    margin-left: 10px;
+    width:80%;
+    margin-bottom: 20px;
+}
+.add-ingredient:hover{
+    background-color: #D49A6A
+}
+.receipe-img-container{
+    width:500px;
+    height:auto;
+    position: relative;
+    border-radius: 5px;
+    border:1px solid grey;
+    margin-right:40px;
+}
+.dish-info-text{
+    width:750px;
+    background-color: wheat;
+    padding-left:10px;
+}
+.description>.receipe-input{
+    line-height: 70px;
+    width:90%;
+    margin-left:30px;
+}
+.post-btn{
+    background-color: white;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    line-height: 60px;
+    margin-left: 10px;
+    width:15%;
+}
+.post-btn:hover{
+    background-color: #FFD1AA;
+}
+/* Directions */
+.dish-direction{
+    margin-top: 40px;
+}
+.steps{
+    margin: 20px;
+}
+.step-item{
+    margin:auto;
+    padding:10px;
+    display: flex;
+}
+.step-item-img-container{
+    width: 275px;
+    height:auto;
+    position: relative;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+.step-item-img{
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+.step-item-info{
+    width:70%;
+    background-color:#D7A76F;
+    padding:10px;
+    margin-left:10px;
+    border-radius: 5px;
+}
+.step-item-number{
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 10px;;
+    color:#552600;
+}
+.step-input{
+    border: lightgrey;
+    border-radius: 3px;
+    height:100px;
+} 
+.step-item-inputtext{
+    width:95%;
+    border-radius: 3px;
+    border:1px solid lightgrey;
+    padding-left:5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.step-btns{
+    text-align: end;
+}
+.step-btn{
+    background-color: white;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    line-height: 60px;
+    margin-left: 10px;
+    width:10%;
+}
+/* ----------------------------------------Member---------------------------------- */
+.selfie-container{
+    margin-top: 40px;
+    width:150px;
+}
+.selfie{
+    width:100%;
+    border-radius: 50%;
+}
+
+/* Login */
+.loginBox{
+    position: fixed;
+    top:80px;
+    left:50%;
+    transform:translate(-170px,0px);
+    width:340px;
+    height:290px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 60px #AAAAAA;
+    border-radius: 6px;
+    display:block;
+    z-index: 20;
+}
+.decoratorBar{
+    width:340px;
+    height:10px;
+    border-radius: 6px 6px 0 0;
+    background: linear-gradient(270deg, #337788 0%, #66AABB 100%);
+}
+form{
+    padding:15px;
+    color:#666666;
+}
+form >.close{
+    position: absolute;
+    right: 17px;
+    width:16px;
+    height: 16px;
+    cursor: pointer;
+}
+.loginTitle,
+.signupTitle{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.loginEmail,
+.loginPassword,
+.loginPassword,
+.signupName,
+.signupEmail,
+.signupPassword
+{
+    width:310px;
+    height:47px;
+    border:1px solid #cccccc;
+    border-radius: 5px;
+    padding:15px;
+    margin-bottom: 10px;
+    
+}
+.btn_login{
+    width:310px;
+    height:47px;
+    background-color: #448899;
+    color:#FFFFFF;
+    font-size: 19px;
+    border:0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.loginURL,
+.signupURL{
+    width:310px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height:22px;
+    text-align: center;
+    cursor: pointer;
+}
+.signupMessage,
+.loginMessage{
+    width:310px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height:22px;
+    text-align: center;
+}
+/*signup*/
+.signupBox{
+    position: fixed;
+    top:80px;
+    left:50%;
+    transform:translate(-170px,0px);
+    width:340px;
+    height:347px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 60px #AAAAAA;
+    border-radius: 6px;
+    z-index: 20;
+    display:block;
 }

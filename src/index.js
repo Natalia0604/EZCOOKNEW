@@ -7,6 +7,7 @@ import BuildPost from "./BuildPost/BuildPost.js";
 import BuyList from "./BuyList/BuyList.js";
 import ViewPost from "./ViewPost/ViewPost.js";
 import Member from "./Member/Member.js";
+import Login from "./Member/Login.js";
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -20,10 +21,11 @@ function App() {
           <Route path="/BuildPost" component={BuildPost}/>
           <Route path="/ViewPost" component={ViewPost}/>
           <Route path="/Member" component={Member}/>
+          <Route path="/Login" component={Login}/>
         </Switch>
       </div>
     </Router>
   );
 }
-ReactDOM.render(<App />,document.getElementById('root'));
+ReactDOM.render(<App />,  document.getElementById('root'));
 

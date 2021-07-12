@@ -43,7 +43,7 @@ blockquote, q {
     quotes: “” “”;
 }
 /* -------------------------------------------------reset css---------------------------------------------------*/
-
+/*
 * {
    box-sizing: border-box;
 }
@@ -146,10 +146,10 @@ h2{
 .post-btn:hover{
     background-color: #FFD1AA;
 }
-  /* Directions */
+  /* Directions 
 .dish-direction{
     margin-top: 40px;
-    /* background-color:#FFD1AA; */
+    background-color:#FFD1AA; 
 }
 .steps{
     margin: 20px;
@@ -211,9 +211,9 @@ h2{
     margin-left: 10px;
     width:10%;
 }
-/* ViewPost.js */
+/* ViewPost.js 
 .serving-controll{
-    /* border:1px solid lightgrey; */
+    border:1px solid lightgrey; 
     text-align:end;
 }
 
@@ -230,3 +230,4 @@ h2{
     font-size: 18px;
     
 }
+*/

@@ -7,7 +7,7 @@ export default function BuildPost() {
    
     return (
       <div className="container">
-        <h2>料理名稱</h2>
+        <h2 className="title">料理名稱</h2>
           <div className="dish-info">
             <div className="receipe-img-container">
           </div>
@@ -46,7 +46,7 @@ export default function BuildPost() {
               <input type="submit" value="Submit"/>
             </div>
             <div className="description">
-              <span className="sub-title">簡介</span>
+              <label className="sub-title">簡介</label>
               <input  
                   className="receipe-input" 
                   placeholder="請輸入食譜敘述"  

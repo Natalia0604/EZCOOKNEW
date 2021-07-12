@@ -43,7 +43,7 @@ blockquote, q {
     quotes: “” “”;
 }
 /* -------------------------------------------------reset css---------------------------------------------------*/
-*{
+/* *{
     box-sizing: border-box;
     font-size: 20px;
     font-weight: bold;
@@ -100,4 +100,4 @@ h3{
     margin-left: 10px;
     right:0;
     position: absolute;
-}
+} */

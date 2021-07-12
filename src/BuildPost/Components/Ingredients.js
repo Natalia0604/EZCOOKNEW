@@ -1,4 +1,6 @@
 import React,{useState} from 'react';
+// import add from "../../img/icon/add.png";
+// import delete from "../../img/icon/delete.png";
 
 export default function Ingredients() {
     const [inputList, setInputList] = useState([{ ingredients: "", ingredientCount: "" }]);
