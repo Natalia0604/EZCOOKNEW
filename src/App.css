@@ -311,14 +311,48 @@ li{
 /* ----------------------------------------Member---------------------------------- */
 .selfie-container{
     margin-top: 40px;
-    width:150px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: center;
 }
 .selfie{
-    width:100%;
+    width:200px;
     border-radius: 50%;
 }
+.member-info-container{
+    width:50%;
+    margin-left: 40px;
+}
+.member-name{
+    font-size: 2rem;
+}
+.member-info-box{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    background-color: #66AABB;
+}
+.list-posts{
+    margin-top: 40px;
+    display:flex;
+    flex-wrap:wrap; 
+    justify-content: center;
+}
+.post-box{
+    margin:10px;
+    height: 200px;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px 6px 6px 6px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.post-contentImg{
+    width:100%;
+    border-radius: 4px 4px 0 0;
+}
 
-/* Login */
+/* -----------------------------Login--------------------- */
 .loginBox{
     position: fixed;
     top:80px;
